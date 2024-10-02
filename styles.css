@@ -1,0 +1,158 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif; /* Tipografía más atractiva */
+    background-image: url('images/6.png'); /* Imagen de fondo */
+    background-size: cover;
+    color: #333;
+    text-align: center; /* Texto centrado */
+    margin: 0;
+    padding: 0;
+}
+
+/* Ocultar secciones al inicio */
+.hidden {
+    display: none;
+}
+
+/* Encabezado principal */
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.pink-line {
+    border: none;
+    height: 5px;
+    background-color: #ffb4cc;
+    margin: 0;
+}
+
+/* Estilo de las imágenes circulares */
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.circle-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 24px; /* Títulos más grandes */
+    color: #d81b60; /* Color que combina */
+}
+
+/* Cuadros de texto */
+.text-box {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center; /* Centrado */
+    line-height: 1.5;
+}
+
+/* Estilos específicos de cada cuadro */
+.quienes-somos-box {
+    background-color: #e3f2fd;
+}
+
+.problem-box {
+    background-color: #fff3e0;
+}
+
+.objectives-box {
+    background-color: #fce4ec;
+}
+
+.evidences-box {
+    background-color: #f3e5f5;
+}
+
+/* Estilo de títulos */
+h3 {
+    color: #d81b60; /* Color que combina */
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo del icono de Instagram */
+.instagram-icon {
+    width: 30px; /* Tamaño del icono */
+    height: 30px;
+}
+
+/* Estilo de la sección de seguir en Instagram */
+.follow-us {
+    font-weight: bold;
+}
+
+.instagram-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Estilo para los nombres de los integrantes */
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-list li {
+    display: inline-block;
+    background-color: #ffe0b2; /* Color claro */
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 5px;
+    color: #d81b60; /* Color que combina */
+}
+
+/* Estilo para la sección de evidencias */
+.evidence-section {
+    margin-top: 20px;
+}
+
+.evidence-title {
+    font-size: 20px; /* Título más pequeño */
+    color: #d81b60; /* Color que combina */
+}
+
+.evidence-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permitir múltiples filas */
+}
+
+.evidence-images img {
+    width: 200px; /* Tamaño de las imágenes */
+    height: auto;
+    margin: 10px;
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+/* Estilo para la imagen "us.png" */
+.us-img {
+    width: 250px; /* Aumentar tamaño */
+    height: auto;
+    margin: 20px auto; /* Margen superior e inferior */
+    display: block; /* Centrado */
+}

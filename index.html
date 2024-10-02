@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Pandora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado principal con imagen -->
+    <header>
+        <img src="images/paver.png" alt="Encabezado del Proyecto Pandora" class="header-img">
+        <hr class="pink-line">
+    </header>
+
+    <!-- Sección de botones de navegación -->
+    <section class="image-section">
+        <a href="#" onclick="showContent('quienes-somos')">
+            <img src="images/4.png" alt="Quiénes somos" class="circle-img">
+            <h2 class="section-title">Quiénes somos</h2>
+        </a>
+
+        <a href="#" onclick="showContent('problema')">
+            <img src="images/3.png" alt="Problema" class="circle-img">
+            <h2 class="section-title">Problema</h2>
+        </a>
+
+        <a href="#" onclick="showContent('objetivos')">
+            <img src="images/2.png" alt="Objetivos" class="circle-img">
+            <h2 class="section-title">Objetivos</h2>
+        </a>
+
+        <a href="#" onclick="showContent('evidencias')">
+            <img src="images/5.png" alt="Evidencias" class="circle-img">
+            <h2 class="section-title">Evidencias</h2>
+        </a>
+    </section>
+
+    <!-- Sección de Quienes Somos (Oculta inicialmente) -->
+    <section id="quienes-somos" class="hidden">
+        <div class="text-box quienes-somos-box">
+            <h3>Quiénes somos</h3>
+            <img src="images/us.png" alt="Nosotras" class="us-img"> <!-- Imagen más grande y centrada -->
+            <p>Somos un grupo de cinco estudiantes del grado 11-02 de la Técnica en Integración de Contenidos Digitales. Nuestro interés radica en el bienestar de los niños y adolescentes de la comunidad educativa, buscando romper el estigma que rodea la educación sexual. Creemos firmemente que es fundamental abordar estos temas de manera abierta y respetuosa, para que todos puedan acceder a la información necesaria y tomar decisiones informadas sobre su salud y bienestar.</p>
+            <ul class="team-list">
+                <li style="background-color: #ffcccb;">Alexa Mojica Espinoza</li> <!-- Color claro -->
+                <li style="background-color: #ffe0b2;">Sara Lisbeth Duran Gelvez</li>
+                <li style="background-color: #d1c4e9;">Jeyvi Andreina Gualdron</li>
+                <li style="background-color: #b3e5fc;">Estefany Motato Cuevas</li>
+                <li style="background-color: #ffcccb;">Alixandy Gomez Ruiz</li>
+            </ul>
+
+            <!-- Instagram -->
+            <p class="follow-us">A continuación, te invitamos a seguir nuestro Instagram:</p>
+            <p class="instagram-section">
+                <span>Nuestro Instagram!</span>
+                <a href="https://www.instagram.com/proyecto.educacion_sexual?igsh=eHpwNGVnZnNteXV0" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" class="instagram-icon">
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección de Problema (Oculta inicialmente) -->
+    <section id="problema" class="hidden">
+        <div class="text-box problem-box">
+            <h3>Problema</h3>
+            <p>El estigma que rodea la educación sexual impide que niños, niñas y adolescentes hablen abiertamente sobre el tema, afectando su bienestar y desarrollo. La falta de diálogo lleva a desinformación y decisiones poco saludables. Es crucial que los niños y adolescentes rompan este estigma para obtener información precisa y aprender sobre sexualidad de manera abierta y respetuosa, lo cual es esencial para su crecimiento saludable.</p>
+            <img src="images/fotopro.jpg" alt="Foto del Problema" class="problem-img" style="width: 300px; height: auto; display: block; margin: 0 auto;"> <!-- Imagen centrada y de tamaño coherente -->
+        </div>
+    </section>
+
+    <!-- Sección de Objetivos (Oculta inicialmente) -->
+    <section id="objetivos" class="hidden">
+        <div class="text-box objectives-box">
+            <h3>Objetivos</h3>
+            <p><strong>Objetivo general:</strong> Promover la conciencia y la discusión abierta sobre la educación sexual en niños y adolescentes ayudando a reducir el estigma asociado a este tema y fomentando una comprensión saludable y respetuosa de la sexualidad.</p>
+            <p><strong>Objetivos específicos:</strong></p>
+            <ul class="objectives-list">
+                <li style="background-color: #ffcccb;">Sensibilizar a través de charlas y actividades prácticas para hacer la educación sexual más comprensible y relevante para los niños y adolescentes.</li>
+                <li style="background-color: #ffe0b2;">Compartir regularmente contenido en redes sociales, para educar a los adolescentes y niños de manera accesible y atractiva.</li>
+                <li style="background-color: #d1c4e9;">Desarrollar un instrumento para recopilar datos sobre las percepciones y necesidades en torno a la educación sexual, con el fin de obtener información.</li>
+            </ul>
+            <video controls style="width: 300px; display: block; margin: 20px auto;">
+                <source src="videos/gracias.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video> <!-- Video centrado -->
+        </div>
+    </section>
+
+    <!-- Sección de Evidencias (Oculta inicialmente) -->
+    <section id="evidencias" class="hidden">
+        <div class="evidences-box">
+            <h3 class="evidence-title">Evidencias</h3>
+            <div class="evidence-section">
+                <h4>Socialización</h4>
+                <a href="https://www.instagram.com/p/C7nIbJHtRye/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/cuartos.png" alt="Cuartos" style="width: 250px; height: auto; border-radius: 10px; margin: 10px;">
+                </a>
+                <a href="https://www.instagram.com/p/C75ZojXNTbo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/sextico.jpg" alt="Sextico" style="width: 250px; height: auto; border-radius: 10px; margin: 10px;">
+                </a>
+                <a href="https://www.instagram.com/p/C_YyF_YvWJj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/nitos.png" alt="Nitos" style="width: 250px; height: auto; border-radius: 10px; margin: 10px;">
+                </a>
+                <a href="https://www.instagram.com/p/C_g1RNYvc49/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="images/nobi.png" alt="Nobi" style="width: 250px; height: auto; border-radius: 10px; margin: 10px;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script para mostrar las secciones y manejar la galería -->
+    <script>
+        function showContent(sectionId) {
+            // Oculta todas las secciones
+            document.querySelectorAll('section').forEach(section => {
+                if (section.id !== '') {
+                    section.classList.add('hidden');
+                }
+            });
+
+            // Muestra la sección correspondiente
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+
+        function toggleGallery() {
+            const gallery = document.getElementById('gallery');
+            gallery.classList.toggle('hidden');
+            const images = gallery.querySelectorAll('.evidence-img');
+            images.forEach((img, index) => {
+                img.style.display = (gallery.classList.contains('hidden') || index > 0) ? 'none' : 'block';
+            });
+            const links = gallery.querySelectorAll('.evidence-link');
+            links.forEach(link => {
+                link.style.display = gallery.classList.contains('hidden') ? 'none' : 'block';
+            });
+        }
+    </script>
+</body>
+</html>
